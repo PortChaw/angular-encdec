@@ -6,16 +6,12 @@
   "bugs": {
     "url": "https://github.com/PortChaw/angular-encdec/issues"
   },
-  "directories": {
-    "lib": "./lib",
-    "test": "./test"
+
+  "dependencies": {
+    "angular": "~1.2.25"
   },
-  "scripts": {
-    "test": "./node_modules/nodeunit/bin/nodeunit ./test/test-encdec.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/PortChaw/angular-encdec.git"
+  "devDependencies": {
+    "angular-mocks": "~1.2.25"
   },
   "keywords": [
     "javascript",
@@ -26,12 +22,5 @@
     "base64"
   ],
   "author": "Ian Oxley <ijoxley@gmail.com> (http://ianoxley.com/)",
-  "license": "MIT",
-  "devDependencies": {
-    "nodeunit": ">0.7.x",
-    "grunt": "~0.4.1",
-    "grunt-contrib-nodeunit": "~0.1.2",
-    "grunt-contrib-watch": "~0.4.3",
-    "grunt-contrib-jshint": "~0.4.3"
-  }
+  "license": "MIT"
 }
